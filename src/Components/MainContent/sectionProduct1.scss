@@ -1,0 +1,28 @@
+.product-featured {
+    width: 100%;
+    padding: 2.5rem 0;
+    padding-bottom: 3rem;
+    .product-list {
+        width: 80%;
+        margin: 0 auto;
+        .product-item {
+            text-align: center;
+            a {
+                text-decoration: none;
+                color: #333;
+                font-weight: 600;
+                .item-image {
+                    width: 100%;
+                }
+                .item-content {
+                    font-size: 2rem;
+                    margin-top: 10px;
+                }
+            }
+            a:hover {
+                color: #ddac55;
+            }
+           
+        }
+    }
+}
